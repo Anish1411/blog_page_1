@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_elements_new_data",
+  "info": {
+    "displayName": "new-data"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

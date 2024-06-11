@@ -129,6 +129,16 @@ export interface ElementsInput extends Schema.Component {
   };
 }
 
+export interface ElementsNewData extends Schema.Component {
+  collectionName: 'components_elements_new_data';
+  info: {
+    displayName: 'new-data';
+  };
+  attributes: {
+    title: Attribute.String;
+  };
+}
+
 export interface ElementsQuickLink extends Schema.Component {
   collectionName: 'components_elements_quick_links';
   info: {
@@ -169,6 +179,7 @@ declare module '@strapi/types' {
       'elements.footer-description': ElementsFooterDescription;
       'elements.footer-input-merge-follw-us': ElementsFooterInputMergeFollwUs;
       'elements.input': ElementsInput;
+      'elements.new-data': ElementsNewData;
       'elements.quick-link': ElementsQuickLink;
       'seo.meta-data': SeoMetaData;
     }

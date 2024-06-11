@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_elements_footer_input_merge_follw_uses",
+  "info": {
+    "displayName": "footer__input_merge_follw_us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "follow_links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.follow-us"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.input"
+    }
+  }
+}

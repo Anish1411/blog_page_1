@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_elements_cards",
+  "info": {
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "blog_type_heading": {
+      "type": "string"
+    },
+    "admin": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "main_heading": {
+      "type": "string"
+    },
+    "main_description": {
+      "type": "text"
+    },
+    "btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_elements_follow_uses",
+  "info": {
+    "displayName": "Follow_us"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "twitter": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "insta": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "linkedIn": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
